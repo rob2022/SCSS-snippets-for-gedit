@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets language="scss">
+  <snippet>
+    <text><![CDATA[@import "${1}";
+$0]]></text>
+    <tag>import</tag>
+    <description>Import</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[@include border-radius: (${1}px );
+$0]]></text>
+    <tag>br</tag>
+    <description>Border Radius</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[@include box-shadow(${1} ${2}px ${3}px ${4}px); 
+$0]]></text>
+    <tag>bs</tag>
+    <description>Box Shadow</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[@include box-sizing(${1:border-box/content-box} );
+$0]]></text>
+    <tag>bsize</tag>
+    <description>Border Sizing</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[@include background-image(linear-gradient(${1:white, #cccccc 30%, #bbbbbb 70%, #aaaaaa}));
+$0]]></text>
+    <tag>grad</tag>
+    <description>Gradient</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[//  ==============================================================================
+$0]]></text>
+    <tag>hr</tag>
+    <description>Comment Rule</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[background-color: #${1};
+background-image: url("${2}");
+background-repeat: ${3:repeat-x / repeat-y / no-repeat };
+background-position: ${4};
+background-attachment: ${5:fixed / scroll};
+// CSS3
+@include background-size(${6:auto / contain / cover / x y});
+@include background-origin(${7:content-box / border-box});
+@include background-clip(${8:padding-box / border-box}); 
+$0]]></text>
+    <tag>bgfull</tag>
+    <description>Background Full</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[background-image: url("${1}");
+$0]]></text>
+    <tag>bgimg</tag>
+    <description>Background Image</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[background-color: "${2}";
+$0]]></text>
+    <tag>bgcol</tag>
+    <description>bgcol</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[float: right;
+$0]]></text>
+    <tag>fr</tag>
+    <description>Float Right</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[float: left;
+$0]]></text>
+    <tag>fl</tag>
+    <description>Float Left</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[position:absolute;
+$0]]></text>
+    <tag>pa</tag>
+    <description>Position Absolute</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[position: fixed;
+$0]]></text>
+    <tag>pf</tag>
+    <description>Position Fixed</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[position:relative;
+$0]]></text>
+    <tag>pr</tag>
+    <description>Position Relative</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[margin:0 auto;
+$0]]></text>
+    <tag>cent</tag>
+    <description>Margin Center</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[padding: ${1} ${2} ${3} ${4};
+$0]]></text>
+    <tag>p</tag>
+    <description>Padding</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[margin:${1} ${2} ${3} ${4};
+$0]]></text>
+    <tag>m</tag>
+    <description>Margin</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[@include rgba-background(rgba(${1:0,0,0,0.0}));
+$0]]></text>
+    <tag>bga</tag>
+    <description>Background with Transparency</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[border:${1:1px} ${2:solid} ${3};
+$0]]></text>
+    <tag>bord</tag>
+    <description>Border</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[@include clearfix;
+$0]]></text>
+    <tag>cf</tag>
+    <description>Clearfix</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[font-family:${1};
+$0]]></text>
+    <tag>ff</tag>
+    <description>Font Family</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[font-size:${1};
+$0]]></text>
+    <tag>fs</tag>
+    <description>Font Size</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[font-style:italic;
+$0]]></text>
+    <tag>it</tag>
+    <description>Italic</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[font-weight:${1};
+$0]]></text>
+    <tag>fw</tag>
+    <description>Font Weight</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[text-align:right;
+$0]]></text>
+    <tag>ar</tag>
+    <description>Text Align Right</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[text-align:center;
+$0]]></text>
+    <tag>tc</tag>
+    <description>Text Align Center</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[text-align:left;
+$0]]></text>
+    <tag>al</tag>
+    <description>Text Align Left</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[text-align:justify;
+$0]]></text>
+    <tag>aj</tag>
+    <description>Text Align Justify</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[text-decoration:${1:none};
+$0]]></text>
+    <tag>td</tag>
+    <description>Text Decoration</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[line-height:${1};
+$0]]></text>
+    <tag>lh</tag>
+    <description>Line Height</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[letter-spacing:${1};
+$0]]></text>
+    <tag>ls</tag>
+    <description>Letter Spacing</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[word-spacing:${1};
+$0]]></text>
+    <tag>ws</tag>
+    <description>Word Spacing</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[color:${1};
+$0]]></text>
+    <tag>c</tag>
+    <description>Color</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[text-shadow: ${1}px ${2}px ${3}px rgba(${4:0,0,0,0.0});
+$0]]></text>
+    <tag>ts</tag>
+    <description>Text Shadow</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[width:${1};
+$0]]></text>
+    <tag>w</tag>
+    <description>Width</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[height:${1};
+$0]]></text>
+    <tag>h</tag>
+    <description>Height</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[max-height:${1};
+$0]]></text>
+    <tag>maxh</tag>
+    <description>Height Max</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[min-height:${1};
+$0]]></text>
+    <tag>minh</tag>
+    <description>Height Min</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[max-width:${1};
+$0]]></text>
+    <tag>maxw</tag>
+    <description>Width Max</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[mix-width:${1};
+$0]]></text>
+    <tag>minw</tag>
+    <description>Width Min</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[@media all and (max-width: ${1}) and (min-width: ${2}) {
+
+}
+$0]]></text>
+    <tag>media</tag>
+    <description>Media Query</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[@mixin hide-text {
+	font: 0/0 a; 
+	text-shadow: none;
+	color: transparent;
+}
+$0]]></text>
+    <tag>htm</tag>
+    <description>Hide Text Mixim</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[@include hide-text;]]></text>
+    <tag>ht</tag>
+    <description>Hide Text</description>
+  </snippet>
+</snippets>
